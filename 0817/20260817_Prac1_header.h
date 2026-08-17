@@ -11,3 +11,4 @@ void PitingType(int piting);
 void Result(int out);
 
 //"///"の一番下の部分の書き方と使い方をど忘れしました。
+//wordに入れなかったので、一旦、問二を飛ばして回答します。
