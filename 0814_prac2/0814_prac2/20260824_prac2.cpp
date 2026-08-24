@@ -28,6 +28,7 @@ int main(void)
 	int numbers[5] = { 10,20,30,40,50 };
 	int* pNumbers;		
 
+	//pNumbers‚ðnumers[0]‚É‘Î‰ž‚³‚¹‚é
 	pNumbers = numbers;
 
 	for (int i = 0; i < 5; i++)
