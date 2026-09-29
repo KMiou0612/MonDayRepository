@@ -13,7 +13,7 @@ bool Trun::PlayPlayerTrun(Player* player, CardManager* cardManager)
 		cout << "===================\n";
 
 		player->ShowStatus();
-		if (player->GetTotal() == BLACKJACK)
+		if (player->GetTotal() == BLACKJACK)		//-> アロー演算子。これのここを使ってねという指定を簡単にできる。
 		{
 			cout << "\nPlayer's Total : 21\n";
 

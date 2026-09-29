@@ -6,7 +6,6 @@ CPU::CPU()
 {
 	total;
 }
-
 void CPU::AddCard(int card)
 {
 	total += card;
@@ -19,5 +18,6 @@ int CPU::GetTotal()
 
 void CPU::ShowStatus()
 {
-	cout << "CPU‚Ì‡ŒvF" << total << endl;
+	cout << "CPU‚Ì‡Œv:" << total << endl;
+
 }

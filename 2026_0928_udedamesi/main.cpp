@@ -1,0 +1,11 @@
+#include "Game.h"
+
+int main()
+{
+	//乱数の初期化
+	srand(static_cast<unsigned int>(time(nullptr)));
+	//ゲームの初期化
+	Game game;
+	//ゲームの開始
+	game.Start();
+}

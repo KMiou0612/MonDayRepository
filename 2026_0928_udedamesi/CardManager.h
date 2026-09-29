@@ -10,6 +10,8 @@ public:
 	CardManager();
 	//カードを作成
 	void CreateCards();
+	//カードをシャッフル
+	void ShuffleCards();
 	//カードを引く
 	int DrawCard();
 	//残りのカード枚数を取得

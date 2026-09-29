@@ -12,5 +12,6 @@ public:
 	int GetTotal();
 	//Œ»İ‚Ìó‘Ô‚ğ•\¦
 	void ShowStatus();
+
 };
 

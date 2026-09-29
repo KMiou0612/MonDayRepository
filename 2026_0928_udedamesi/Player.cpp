@@ -19,5 +19,5 @@ int Player::GetTotal()
 
 void Player::ShowStatus()
 {
-	cout << "Player‚Ì‡ŒvF" << total << endl;
+	cout << "Player‚Ì‡Œv:" << total << endl;
 }
