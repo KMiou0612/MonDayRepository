@@ -6,7 +6,16 @@ class Player : public Character
 private:
 	int ChoiceNum;
 public:
-	Player(int hp, int attack, int defence, int evasion);
-	int choice();
+
+	/// <summary>
+	/// Playerコンストラクタ
+	/// </summary>
+	Player();
+
+	/// <summary>
+	/// プレイヤーの行動選択
+	/// </summary>
+	/// <param name="target">対象キャラクター</param>
+	void Action(Character& target);
 };
 

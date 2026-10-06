@@ -11,10 +11,16 @@ const int MIN_LEVEL = 1;
 const int MAX_LEVEL = 20;
 //‘Ì—Í‚ÌãŒÀ
 const int MAX_HP = 100;
-//‰ñ•œ’l‚Ì‰ºŒÀ
+//‰ñ•œ—Ê‚Ì‰ºŒÀ
 const int HEAL_MIN = 1;
-//‰ñ•œ‚ÌãŒÀ
+//‰ñ•œ—Ê‚ÌãŒÀ
 const int HEAL_MAX = 12;
+//UŒ‚‚Ì—”‚Ì‰ºŒÀ
+const int ATTACK_MIN = 1;
+//UŒ‚‚Ì—”‚ÌãŒÀ
+const int ATTACK_MAX = 12;
 //ƒvƒŒƒCƒ„[‚ÌUŒ‚
 const int PLAYER_ATTACK = 1;
 const int PLAYER_HEAL = 2;
+//€–S‚Ì‚g‚o
+const int DEAD_HP = 0;
