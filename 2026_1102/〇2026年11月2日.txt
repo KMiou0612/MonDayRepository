@@ -1,0 +1,52 @@
+〇2026年11月2日
+
+<　unsingned char;　について　>
+unsingned : ビット演算。0～255まで使える。普通は-128or-127～255
+	　　１バイト単位の数値やデータを扱うための型
+
+<　namespace:名前空間　について　>
+名前空間とは：クラスとはまた違う方法でプログラムを整理するもの
+クラスとの違い：インスタンス化する必要がない
+
+〇使い方例
+#include <iostream>
+using namespace std;
+
+namespace player
+{
+	void showStatus()
+	{
+		cout << "プレイヤーの名前：Harry" << endl;
+	}
+}
+
+namespace enemy
+{
+	void showStatus()
+	{
+		cout << "敵の名前：Ron" << endl;
+	}
+}
+
+int main(void)
+{
+	player::showStatus();
+	enemy::showStatus();
+	return 0;
+}
+
+　→結果
+プレイヤーの名前：Harry
+敵の名前：Ron
+
+と表示される。
+
+〇便利な場面
+・乱数の生成
+・画面を初期化
+・画像を読み込み
+・数値の計算
+・デバック情報を表示する
+
+デメリット
+使い方は似ているがクラスではないので、カプセル化や継承、ポリモフィズムは使えない。
